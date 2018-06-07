@@ -6,7 +6,7 @@
 /*   By: sgarcia <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/26 19:01:42 by sgarcia           #+#    #+#             */
-/*   Updated: 2018/06/07 15:57:23 by sgarcia          ###   ########.fr       */
+/*   Updated: 2018/06/07 21:45:36 by sgarcia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static	int		verif_line(int fd, char **line, char **copy, t_read r)
 {
-	int tmp;
+	int	tmp;
 
 	tmp = 100000;
 	while (tmp > 0)
